@@ -35,6 +35,14 @@ than their superclass (base class/ parent class).  These method are not required
 
 14. **Delegation/Forwarding**:  Commonly refers to rediricting a method in some way at run time unlike static linking of methods via inheritence at compile time.  Although the term `delegate` differs depending on the language you are working with.  [More on delegation](http://en.wikipedia.org/wiki/Delegation_(programming))
 
-
+15. **composition/aggregation**:
+16. **abstract class**:
+17. **interface/protocol*: (and different from abstract class)
+18. **method overriding**:
+19. **method overloading**: (and difference from overriding)
+20. **polymorphism**: (without resorting to examples)
+21. **is-a / has-a relationships**: (with examples)
+22. **method signatures**: (what's included in one)
+23. **method visibility**: (e.g. public/private/other)
 
 
