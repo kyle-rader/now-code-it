@@ -1,0 +1,17 @@
+#!/bin/bash
+# script for making a new practice problem
+
+if [ "$#" -ne "2" ]
+then
+	echo "new: Error!: Must have 2 arguments."
+	exit 0
+fi
+
+cp -R template "$1/"
+cd "$1"
+cur_date=$(date)
+
+cat template.c | sed s/template/"$1"/i | sed s/description/"$2"/i | sed s/date/"$cur_date"/  > "$1.c"
+
+rm template.c
+
