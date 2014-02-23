@@ -1,4 +1,4 @@
-#Object oriented terminology
+#Object Oriented Terminology
 
 
 1. Object: A hunk of memory that we use to represent real world or sometimes conceptual objects
