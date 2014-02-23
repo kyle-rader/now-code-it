@@ -37,7 +37,7 @@ than their superclass (base class/ parent class).  These method are not required
 
 15. **composition/aggregation**:
 16. **abstract class**:
-17. **interface/protocol*: (and different from abstract class)
+17. **interface/protocol**: (and different from abstract class)
 18. **method overriding**:
 19. **method overloading**: (and difference from overriding)
 20. **polymorphism**: (without resorting to examples)
