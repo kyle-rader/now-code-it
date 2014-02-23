@@ -33,6 +33,8 @@ than their superclass (base class/ parent class).  These method are not required
 
 13. **Multiple Inheritence**:  The ability to have multiple parent classes.  For example say we have a class `car` and a class `boat`.  To represent some new vehicle like the [Gibbs Aquada](http://en.wikipedia.org/wiki/Aquada) we may define a new class `aquada` which inherits from both `car` and `boat`.
 
+14. **Delegation/Forwarding**:  Commonly refers to rediricting a method in some way at run time unlike static linking of methods via inheritence at compile time.  Although the term `delegate` differs depending on the language you are working with.  [More on delegation](http://en.wikipedia.org/wiki/Delegation_(programming))
+
 
 
 
