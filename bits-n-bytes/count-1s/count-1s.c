@@ -20,7 +20,15 @@ int long_cnt(int n) {
   return cnt;
 }
 
-/* Implementation 2: Shorter: O(log(N)) */
+/* Implementation 2: Shorter: O(log(N))
+ *
+ * How does this work?
+ * By subtracting 1 from n flips ever bit from the rightmost high bit to the lowest bit.
+ * (including the rightmost bit).
+ * Then we clear them all by using the bitwise-and assignment operator.  
+ * However many times the loop iterates is how many set bits there are.
+ */
+
 int short_cnt(int n) {
   int cnt = 0;
   while (n != 0) {
@@ -30,6 +38,7 @@ int short_cnt(int n) {
   return cnt;
 }
 
+/* MAIN */
 int main(int argc, char * argv[]) {
 
   printf("Long way:\n");
