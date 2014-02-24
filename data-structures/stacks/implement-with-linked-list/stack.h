@@ -24,3 +24,5 @@ void push(struct Stack *stack, int value);
 int pop(struct Stack *stack);
 struct Stack *create_stack();
 void delete_stack(struct Stack *stack);
+
+#endif

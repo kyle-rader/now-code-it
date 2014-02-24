@@ -7,10 +7,11 @@
  *
  */
 
-#inlcude <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 #include "stack.h"
+#include <stdio.h>
 
 int main(int argc, char * argv[]) {
 
